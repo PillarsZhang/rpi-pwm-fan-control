@@ -1,0 +1,7 @@
+channel: 15
+temp_fan_start: 60
+temp_fan_max: 75
+temp_fan_stop: 55
+pwm_start: 70
+pwm_max: 100
+delay: 2000

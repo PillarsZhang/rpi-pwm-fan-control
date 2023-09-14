@@ -1,0 +1,10 @@
+[Unit]
+Description=RPI PWM Fan Control Service
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/local/bin/rpi-pwm-fan-control config.yaml
+WorkingDirectory=/usr/local/etc/rpi-pwm-fan-control
+
+[Install]
+WantedBy=multi-user.target

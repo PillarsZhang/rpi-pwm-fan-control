@@ -1,0 +1,11 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/zhang/workspace/2023-09-12_rpi-pwm-fan-control/rpi-pwm-fan-control/build",
+            "binaryPath": "/home/zhang/workspace/2023-09-12_rpi-pwm-fan-control/rpi-pwm-fan-control/build/rpi-pwm-fan-control",
+            "binaryArgs": [
+                "../example/config.yaml"
+            ]
+        }
+    ]
+}
